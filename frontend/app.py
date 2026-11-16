@@ -35,10 +35,12 @@ def main() -> None:
 
     with st.sidebar:
         st.markdown(
-            '<div style="padding:.2rem 0 .6rem">'
-            '<div style="font-size:1.35rem;font-weight:800;color:#14532d">🌳 Kivu Smart</div>'
-            '<div style="font-size:.82rem;color:#4b5563">Restauration intelligente des paysages · Sud-Kivu</div>'
-            "</div>", unsafe_allow_html=True)
+            '<div class="kv-sidebar-brand">'
+            '<div class="kv-sidebar-title">🌳 Kivu Smart</div>'
+            '<div class="kv-sidebar-subtitle">Restauration intelligente des paysages · Sud-Kivu</div>'
+            "</div>",
+            unsafe_allow_html=True,
+        )
 
     menu = st.navigation({
         "Présentation": [pages["accueil"], pages["strategies"]],

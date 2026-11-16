@@ -55,7 +55,26 @@ CSS = """
 #MainMenu, footer, [data-testid="stDeployButton"] {visibility: hidden;}
 .block-container {padding-top: 1.4rem; padding-bottom: 2rem; max-width: 1480px;}
 h1, h2, h3 {letter-spacing: -0.01em;}
-[data-testid="stSidebar"] {background: #f4f7f5; border-right: 1px solid #e5e7eb;}
+[data-testid="stSidebar"] {background: #f4f7f5; border-right: 1px solid #d6e2da;}
+[data-testid="stSidebar"] > div:first-child {padding-top: 1.15rem;}
+[data-testid="stSidebar"] [data-testid="stSidebarNav"] {padding: 0 .75rem 1rem;}
+[data-testid="stSidebar"] [data-testid="stSidebarNavLink"] {
+  border-radius: 9px; color: #1f2937; font-size: .94rem; font-weight: 600;
+  min-height: 2.55rem; padding: .5rem .7rem; margin: .15rem 0;
+}
+[data-testid="stSidebar"] [data-testid="stSidebarNavLink"]:hover {
+  background: #e2eee7; color: #0c3a20;
+}
+[data-testid="stSidebar"] [data-testid="stSidebarNavLink"][aria-current="page"] {
+  background: #d3eadb; color: #0c3a20; box-shadow: inset 3px 0 #14532d;
+}
+[data-testid="stSidebar"] [data-testid="stSidebarNavLink"] span {
+  overflow: visible; text-overflow: clip; white-space: normal;
+}
+[data-testid="stSidebar"] .stCaption {color: #52635a; line-height: 1.45;}
+.kv-sidebar-brand {border-bottom: 1px solid #d6e2da; margin: 0 .75rem .7rem; padding: 0 .25rem .85rem;}
+.kv-sidebar-title {color: #0c3a20; font-size: 1.35rem; font-weight: 800; line-height: 1.25;}
+.kv-sidebar-subtitle {color: #52635a; font-size: .82rem; line-height: 1.4; margin-top: .35rem;}
 .kv-hero {background: linear-gradient(118deg, #0c3a20 0%, #14532d 48%, #1e6b58 100%);
   color: #fff; border-radius: 16px; padding: 26px 32px; margin-bottom: 1.1rem;}
 .kv-hero h1 {color: #fff; font-size: 2rem; margin: 0; padding: 0;}
