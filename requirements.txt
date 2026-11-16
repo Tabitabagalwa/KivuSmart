@@ -1,1 +1,24 @@
-streamlit
+streamlit>=1.37.0
+pandas>=2.2.0
+numpy>=1.26.0
+geopandas>=0.14.0
+folium>=0.17.0
+streamlit-folium>=0.22.0
+requests>=2.32.0
+shapely>=2.0.0
+rasterio>=1.4.3
+pyproj>=3.6.1
+
+# Backend API (FastAPI + PostgreSQL/PostGIS)
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+SQLAlchemy>=2.0.30
+GeoAlchemy2>=0.15.0
+psycopg[binary]>=3.1.18
+httpx>=0.27.0
+
+# Téléchargement des produits NASA via Google Earth Engine (gee_export.py)
+earthengine-api>=1.0.0

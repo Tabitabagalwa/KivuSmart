@@ -1,2 +1,3 @@
-# KivuReleaf
-Flood risk prediction and visualization prototype for South Kivu using satellite data and geospatial analysis
+# Kivu RestorAI
+
+Kivu RestorAI is an intelligent web-based decision-support platform dedicated to the restoration of forest and mountain landscapes in the Kalehe Territory and around Kahuzi-Biega National Park (KBNP), in South Kivu, Democratic Republic of the Congo. By combining GIS-based Multi-Criteria Decision Analysis (AHP), artificial intelligence, and satellite data from NASA and Copernicus, the platform identifies priority restoration areas, monitors land degradation, and recommends suitable interventions, including protective reforestation, climate-smart agroforestry, and assisted natural regeneration. Through a fully drone-free Earth observation approach, Kivu RestorAI provides actionable insights to support conservation agencies, local authorities, NGOs, and farming communities in promoting sustainable landscape restoration, reducing soil erosion, strengthening ecosystem resilience, and protecting biodiversity.

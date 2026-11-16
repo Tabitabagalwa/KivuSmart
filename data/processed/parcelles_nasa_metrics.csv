@@ -1,0 +1,4 @@
+id,name,slope_pct,ndvi,distance_to_forest_m,distance_to_village_km,distance_to_field_m,distance_to_protected_area_km,soil_moisture,rainfall_mm,temperature_c,canopy_height_m,water_buffer_m,cropland,degraded
+parcelle_01,Parcelle pilote Nord,18,0.46,550,1.2,180,0.9,0.42,1500,24.1,2.4,320,true,false
+parcelle_02,Versant critique Sud,42,0.20,2000,4.1,910,8.0,0.21,1800,22.8,1.2,140,false,true
+parcelle_03,Terroir agricole Ouest,12,0.33,1500,1.8,90,3.5,0.26,1300,25.3,1.7,430,true,true

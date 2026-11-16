@@ -1,0 +1,4 @@
+DONNÉES SIMULÉES — générées par scripts/generer_donnees_simulees.py
+Aucune de ces couches ne provient de la NASA ni d'un relevé de terrain.
+Elles servent uniquement à tester l'affichage et la chaîne de traitement.
+Graine aléatoire : 2026

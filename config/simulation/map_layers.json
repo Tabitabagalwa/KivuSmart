@@ -1,0 +1,223 @@
+{
+  "layers": [
+    {
+      "name": "Parc national de Kahuzi-Biega",
+      "path": "data/simulated/vecteurs/pnkb.geojson",
+      "role": "environmental",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Lac Kivu",
+      "path": "data/simulated/vecteurs/lac_kivu.geojson",
+      "role": "environmental",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Cours d'eau",
+      "path": "data/simulated/vecteurs/rivieres.geojson",
+      "role": "environmental",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Routes",
+      "path": "data/simulated/vecteurs/routes.geojson",
+      "role": "environmental",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Localités",
+      "path": "data/simulated/vecteurs/villages.geojson",
+      "role": "environmental",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Zones prioritaires",
+      "path": "data/simulated/vecteurs/zones_prioritaire.geojson",
+      "role": "priority",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Reboisement pur",
+      "path": "data/simulated/vecteurs/zones_reboisement.geojson",
+      "role": "forestry",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Régénération naturelle assistée",
+      "path": "data/simulated/vecteurs/zones_rna.geojson",
+      "role": "rna",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    },
+    {
+      "name": "Agroforesterie",
+      "path": "data/simulated/vecteurs/zones_agroforesterie.geojson",
+      "role": "agroforestry",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "period_start": "2015-01-01",
+      "period_end": "2025-12-31"
+    }
+  ],
+  "rasters": [
+    {
+      "id": "altitude_m",
+      "name": "Altitude",
+      "path": "data/simulated/rasters/altitude_m.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "m",
+      "palette": "altitude",
+      "show": false
+    },
+    {
+      "id": "pente_pct",
+      "name": "Pente",
+      "path": "data/simulated/rasters/pente_pct.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "%",
+      "palette": "pente",
+      "show": false
+    },
+    {
+      "id": "ndvi_2015",
+      "name": "NDVI 2015 (saison sèche)",
+      "path": "data/simulated/rasters/ndvi_2015.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "sans unité",
+      "palette": "vegetation",
+      "show": false
+    },
+    {
+      "id": "ndvi_2025",
+      "name": "NDVI 2025 (saison sèche)",
+      "path": "data/simulated/rasters/ndvi_2025.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "sans unité",
+      "palette": "vegetation",
+      "show": false
+    },
+    {
+      "id": "changement_ndvi_2015_2025",
+      "name": "Variation NDVI 2015-2025",
+      "path": "data/simulated/rasters/changement_ndvi_2015_2025.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "sans unité",
+      "palette": "variation",
+      "show": false
+    },
+    {
+      "id": "couverture_arboree_pct",
+      "name": "Couverture arborée",
+      "path": "data/simulated/rasters/couverture_arboree_pct.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "%",
+      "palette": "vegetation",
+      "show": false
+    },
+    {
+      "id": "pluie_mm_an",
+      "name": "Précipitations annuelles",
+      "path": "data/simulated/rasters/pluie_mm_an.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "mm/an",
+      "palette": "eau",
+      "show": false
+    },
+    {
+      "id": "humidite_sol",
+      "name": "Humidité du sol (zone racinaire)",
+      "path": "data/simulated/rasters/humidite_sol.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "m3/m3",
+      "palette": "eau",
+      "show": false
+    },
+    {
+      "id": "annees_brulees_2015_2025",
+      "name": "Fréquence des feux 2015-2025",
+      "path": "data/simulated/rasters/annees_brulees_2015_2025.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": false,
+      "unit": "années",
+      "palette": "feux",
+      "show": false
+    },
+    {
+      "id": "occupation_sol_2025",
+      "name": "Occupation du sol 2025",
+      "path": "data/simulated/rasters/occupation_sol_2025.tif",
+      "source": "Jeu de démonstration (données synthétiques)",
+      "satellite": false,
+      "product": "Jeu de démonstration",
+      "categorical": true,
+      "unit": "classe",
+      "palette": "categorique",
+      "show": true,
+      "class_colors": {
+        "1": "#14532d",
+        "2": "#22c55e",
+        "3": "#d9f99d",
+        "4": "#f59e0b",
+        "5": "#2563eb",
+        "6": "#6b7280"
+      },
+      "class_labels": {
+        "1": "Forêt primaire",
+        "2": "Forêt secondaire",
+        "3": "Savane / prairie",
+        "4": "Mosaïque champs-jachère",
+        "5": "Eau",
+        "6": "Bâti"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Secteur de Kalehe",
+  "country": "République démocratique du Congo",
+  "boundary_path": "data/simulated/vecteurs/zone_etude.geojson",
+  "boundary_source": "Jeu de démonstration (limite indicative, non officielle)",
+  "boundary_source_crs": "EPSG:4326",
+  "target_crs": "EPSG:32735",
+  "target_resolution_m": 30.0
+}

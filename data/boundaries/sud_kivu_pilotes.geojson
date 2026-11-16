@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"id": "parcelle_01", "name": "Parcelle pilote Nord"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [28.786, -2.361],
+          [28.794, -2.361],
+          [28.794, -2.352],
+          [28.786, -2.352],
+          [28.786, -2.361]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"id": "parcelle_02", "name": "Versant critique Sud"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [28.816, -2.382],
+          [28.821, -2.382],
+          [28.821, -2.374],
+          [28.816, -2.374],
+          [28.816, -2.382]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"id": "parcelle_03", "name": "Terroir agricole Ouest"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [28.755, -2.330],
+          [28.762, -2.330],
+          [28.762, -2.321],
+          [28.755, -2.321],
+          [28.755, -2.330]
+        ]]
+      }
+    }
+  ]
+}

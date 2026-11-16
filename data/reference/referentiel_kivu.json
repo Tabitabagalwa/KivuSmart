@@ -1,0 +1,30 @@
+{
+  "species": [
+    {
+      "name": "Calliandra",
+      "recommended_for": ["agroforesterie"],
+      "benefits": ["fixation azote", "ombrage", "protection sol"],
+      "risk": "besoin d'un plan d'entretien local"
+    },
+    {
+      "name": "Grevillea",
+      "recommended_for": ["agroforesterie", "reboisement"],
+      "benefits": ["croissance rapide", "stabilisation de pente"],
+      "risk": "surveillance initiale"
+    },
+    {
+      "name": "Albizia",
+      "recommended_for": ["reboisement", "rna"],
+      "benefits": ["rétention eau", "sol", "biodiversité"],
+      "risk": "hauteur de plantation selon terrain"
+    }
+  ],
+  "thresholds": {
+    "rna_slope_min_pct": 15,
+    "rna_slope_max_pct": 35,
+    "reboisement_slope_min_pct": 35,
+    "agroforesterie_slope_max_pct": 20,
+    "forest_distance_max_m": 800,
+    "village_distance_max_km": 2.0
+  }
+}

@@ -1,0 +1,23 @@
+# PostgreSQL 16 + PostGIS 3.4 for the Kivu Smart backend.
+#   docker compose up -d db
+#   python -m backend.app.db.init_db --demo
+#   uvicorn backend.app.server:app --reload
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-kivu}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-kivu}
+      POSTGRES_DB: ${POSTGRES_DB:-kivu_smart}
+    ports:
+      - "127.0.0.1:5432:5432"   # bound to localhost only
+    volumes:
+      - kivu_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-kivu} -d ${POSTGRES_DB:-kivu_smart}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  kivu_pgdata:

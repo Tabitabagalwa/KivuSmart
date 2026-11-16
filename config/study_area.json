@@ -1,0 +1,9 @@
+{
+  "name": "Kalehe",
+  "country": "République démocratique du Congo",
+  "boundary_path": null,
+  "boundary_source": null,
+  "boundary_source_crs": null,
+  "target_crs": "EPSG:32735",
+  "target_resolution_m": null
+}
