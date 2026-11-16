@@ -1,0 +1,1 @@
+"""Kivu Smart application package."""
